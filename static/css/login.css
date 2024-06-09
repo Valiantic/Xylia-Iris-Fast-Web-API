@@ -41,6 +41,11 @@ body {
     font-style: normal;
     color: white;
 }
+input{
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
 .forgotsec{
     float: right;
     margin-bottom: 7%;
