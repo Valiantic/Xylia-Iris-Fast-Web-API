@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link href="{{ url_for('static', path='/css/login.css') }}" rel="stylesheet">
+</head>
+<body>
+
+
+   
+    
+    <div class="form-container">
+        <p class="container-title">Login</p>
+
+        <form class="inputing">
+            <div class="inputname">
+                <label class="usern">Username</label>
+                <input type="text" name="username" placeholder="">
+            </div>
+            <div class="inputpass">
+                <label class="passer">Password</label>
+                <input type="password" name="password" placeholder="">
+            </div>
+            <div class="forgotsec">
+                <a href="#">Forgot Password?</a>
+            </div>
+                
+                    <button class="signin"><a href="#">Sign in</a></button>
+                
+            <div class="createacc">
+                <p>Don't have an account?<a href="#"> Sign up</a></p>
+
+            </div>
+           
+            
+        </form>
+    </div>
+
+    <div class="loginpic">
+        <img src="/static/images/loginpic.png" alt="loginpic">
+    </div>
+
+        <div class="companycontainer">
+            <h1 class="companytitle">Xylia Iris</h1>
+            <h2 class="companysubheading">"Design with elegancy"</h2>
+        </div>
+
+        
+
+</body>
+</html>
