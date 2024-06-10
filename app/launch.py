@@ -8,11 +8,11 @@ app = FastAPI() # method calling of fastapi
 
 app.mount(
     "/static",
-    StaticFiles(directory=Path(__file__).parent.parent.absolute() / "static"),
+    StaticFiles(directory=Path(__file__).parent.parent.absolute() / "static"), # for css & other files 
     name="static",
 )
 
-templates = Jinja2Templates(directory="templates")
+templates = Jinja2Templates(directory="templates") # allows to coexist with web dev integration
 
 
 @app.get('/login/', response_class=HTMLResponse)

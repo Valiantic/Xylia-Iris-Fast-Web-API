@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: white;
+    background: rgba(167, 139, 250, 1);
 }
 .form-container {
     float: right;
@@ -99,7 +99,7 @@ img {
     margin-left: 10%;
 }
 .companytitle{
-    color: #252525;
+    color: white;
     font-size: 3.5vw;
     font-family: "Rajdhani", sans-serif;
     font-weight: 700;
@@ -120,34 +120,46 @@ img {
     }
     img {
         height: 45vh;
-        width: 100vw;
-        margin-left: 65vw;
+        width: 120vw;
+        margin-left: 85vw;
+        margin-top: 75vw;
     }
-    .companytitle{
-        color: #252525;
-        font-size: 6.5vw;
+    .container-title{
+        color: rgba(167, 139, 250, 1);
+        font-size: 8.5vw;
         font-family: "Rajdhani", sans-serif;
         font-weight: 700;
         font-style: bold;
+        margin-top: 0vw;
+    }
+    .companytitle{
+        color: white;
+        font-size: 8.5vw;
+        font-family: "Rajdhani", sans-serif;
+        font-weight: 700;
+        font-style: bold;
+        margin-top: 0vw;
     }
     .companysubheading {
         font-size: 4.5vw; 
-        margin-top: 0.5em;
+        margin-top: 0;
         font-family: "Rajdhani", sans-serif;
         font-weight: 700;
         font-style: italic;
     }
     .form-container {
         background: #252525;
-        height: 38vh;
-        width: 50vw;
-        margin-top: 79%;
-        margin-right: 5%;
+        height: 40vh;
+        width: 55vw;
+        margin-top: 2%;
+        margin-right: 20%;
         border-radius: 5%;
         padding: 4%;
         
+        
     }
     input{
-        width: 15vw;
+        width: 27vw;
+       
     }
 }
