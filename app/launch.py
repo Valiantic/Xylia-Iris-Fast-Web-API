@@ -15,7 +15,7 @@ app.mount(
 templates = Jinja2Templates(directory="templates") # allows to coexist with web dev integration
 
 
-@app.get('/login/', response_class=HTMLResponse)
+@app.get('/', response_class=HTMLResponse)
 def login(request: Request):
     context = {'request': request}
     return templates.TemplateResponse("login.html", context)
